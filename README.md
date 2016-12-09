@@ -13,5 +13,6 @@ So，
 https://github.com/liuxuanqiang/KindEditor-FontAwesome
 
 ### 致谢：
-http://kindeditor.org/
+http://kindeditor.org/  
+
 http://fontawesome.io/
