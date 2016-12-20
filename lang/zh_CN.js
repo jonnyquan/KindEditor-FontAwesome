@@ -64,6 +64,7 @@ KindEditor.lang({
 	insertfile : '文件上传',
 	template : '插入模板',
 	anchor : '锚点',
+    jme: '插入公式',
 	yes : '确定',
 	no : '取消',
 	close : '关闭',

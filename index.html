@@ -6,11 +6,12 @@
     <title>KindEditor</title>
     <style>
         *{font-family: "Microsoft Yahei";}
-        form {width: 90%;margin: 0 5%;}
+        form {width: 90%;margin: 50px 5% 0;}
     </style>
     <link rel="stylesheet" href="themes/font-awesome/css/font-awesome.css">
-    <script charset="utf-8" src="kindeditor.js"></script>
-    <script charset="utf-8" src="lang/zh_CN.js"></script>
+    <script src="themes/common/jquery-1.8.3.min.js"></script>
+    <script src="kindeditor.js"></script>
+    <script src="lang/zh_CN.js"></script>
     <script>
         var editor;
         KindEditor.ready(function (K) {
@@ -23,7 +24,7 @@
                     'undo', 'redo',
                     'formatblock', 'fontname', 'fontsize', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline', 'strikethrough', 'lineheight',
                     'justifyleft', 'justifycenter', 'justifyright', 'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent',
-                    'subscript','superscript', 'hr', 'table', 'pagebreak','anchor', 'link', 'unlink', 'emoticons', 'baidumap',
+                    'subscript','superscript', 'jme', 'hr', 'table', 'pagebreak','anchor', 'link', 'unlink', 'emoticons', 'baidumap',
                     'image', 'multiimage','flash', 'audio', 'video', 'media', 'insertfile',
                     'about', 'fullscreen'
                 ]
@@ -34,9 +35,8 @@
 
 <body>
     <form>
-        <h2>KindEditor富文本编辑器</h2>
         <textarea name="content">
-            欢迎使用 KindEditor 富文本编辑器，请输入内容...
+            
         </textarea>
     </form>
 </body>
