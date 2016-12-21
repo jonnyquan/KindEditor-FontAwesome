@@ -14,6 +14,9 @@ So，
 ### 项目地址：
 https://github.com/liuxuanqiang/KindEditor-FontAwesome
 
+### 备注：
+部分插件（如插入公式，图片批量上传等）需要在http协议（服务器环境）下才能正常使用。
+
 ### 致谢：
 http://kindeditor.org/  
 http://fontawesome.io/
