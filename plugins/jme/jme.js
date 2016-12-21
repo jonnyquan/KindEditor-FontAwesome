@@ -1,10 +1,10 @@
 KindEditor.lang({
     jme: '插入公式'
 });
-KindEditor.plugin('jme', function (e) {
+KindEditor.plugin('jme', function(e) {
     var editor = this,
         name = 'jme';
-    editor.clickToolbar(name, function () {
+    editor.clickToolbar(name, function() {
         var dialog = editor.createDialog({
             name: 'jme',
             width: 500,
@@ -12,15 +12,9 @@ KindEditor.plugin('jme', function (e) {
             title: editor.lang('jme'),
             body: '<div style="width:100%;height:278px;">' +
                 '<iframe id="math_frame" style="width:100%;height:278px;" frameborder="no" src="' + KindEditor.basePath + 'plugins/jme/dialogs/mathdialog.html"></iframe></div>',
-            closeBtn: {
-                name: '关闭',
-                click: function (e) {
-                    dialog.remove();
-                }
-            },
             yesBtn: {
                 name: '确定',
-                click: function (e) {
+                click: function(e) {
                     var thedoc = document.frames ? document.frames('math_frame').document : getIFrameDOM("math_frame");
                     $("#jme-math", thedoc).find(".textarea").remove();
                     var mathHTML = '<span class="mathquill-rendered-math" style="font-size:' + '20px' + ';" >' + $("#jme-math", thedoc).html() + '</span><span>&nbsp;</span>';
