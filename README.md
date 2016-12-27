@@ -8,10 +8,14 @@ Font-Awesome是一套非常优雅的Web2.0字体图标库，可以使用CSS的�
 So，
 ### 效果图:
 
-<img src="https://github.com/liuxuanqiang/KindEditor-FontAwesome/blob/master/screenshots/screenshots.png">
+<img src="https://github.com/liuxuanqiang/KindEditor-FontAwesome/blob/master/screenshots/screenshots-01.png">
+<img src="https://github.com/liuxuanqiang/KindEditor-FontAwesome/blob/master/screenshots/screenshots-02.png">
 
 ### 项目地址：
 https://github.com/liuxuanqiang/KindEditor-FontAwesome
+
+### 备注：
+部分插件（如插入公式，图片批量上传等）需要在http协议（服务器环境）下才能正常使用。
 
 ### 致谢：
 http://kindeditor.org/  
