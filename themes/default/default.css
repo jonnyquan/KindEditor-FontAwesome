@@ -520,6 +520,14 @@
     height: 16px;
 }
 
+.ke-icon-matheditor {
+    background: url(jme.png) no-repeat;
+    background-position: 50% 0;
+    background-size: 14px 14px;
+    width: 16px;
+    height: 16px;
+}
+
 
 /* container */
 
@@ -663,6 +671,7 @@
     text-align: left;
     overflow: hidden;
     border: 1px solid #ccc;
+    background: #fff;
 }
 
 .ke-menu-item {
@@ -718,6 +727,7 @@
 /* colorpicker */
 
 .ke-colorpicker {
+    background: #fff;
     color: #222222;
     border: 1px solid #ccc;
     padding: 2px;
